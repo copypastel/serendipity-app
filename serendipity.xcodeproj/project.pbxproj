@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45E62D1415968A730027A81E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E62D1315968A730027A81E /* UIKit.framework */; };
+		45E62D1615968A730027A81E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E62D1515968A730027A81E /* Foundation.framework */; };
+		45E62D1815968A730027A81E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E62D1715968A730027A81E /* CoreGraphics.framework */; };
+		45E62D1E15968A730027A81E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45E62D1C15968A730027A81E /* InfoPlist.strings */; };
+		45E62D2015968A730027A81E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E62D1F15968A730027A81E /* main.m */; };
+		45E62D2415968A730027A81E /* cpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E62D2315968A730027A81E /* cpAppDelegate.m */; };
+		45E62D2715968A730027A81E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E62D2515968A730027A81E /* MainStoryboard_iPhone.storyboard */; };
+		45E62D2A15968A730027A81E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E62D2815968A730027A81E /* MainStoryboard_iPad.storyboard */; };
+		45E62D2D15968A730027A81E /* cpMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E62D2C15968A730027A81E /* cpMasterViewController.m */; };
+		45E62D3015968A730027A81E /* cpDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E62D2F15968A730027A81E /* cpDetailViewController.m */; };
+		45E62D3815968A730027A81E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E62D3715968A730027A81E /* SenTestingKit.framework */; };
+		45E62D3915968A730027A81E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E62D1315968A730027A81E /* UIKit.framework */; };
+		45E62D3A15968A730027A81E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E62D1515968A730027A81E /* Foundation.framework */; };
+		45E62D4215968A730027A81E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45E62D4015968A730027A81E /* InfoPlist.strings */; };
+		45E62D4515968A730027A81E /* serendipityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E62D4415968A730027A81E /* serendipityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45E62D3B15968A730027A81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E62D0615968A730027A81E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E62D0E15968A730027A81E;
+			remoteInfo = serendipity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45E62D0F15968A730027A81E /* serendipity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = serendipity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E62D1315968A730027A81E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45E62D1515968A730027A81E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45E62D1715968A730027A81E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45E62D1B15968A730027A81E /* serendipity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "serendipity-Info.plist"; sourceTree = "<group>"; };
+		45E62D1D15968A730027A81E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45E62D1F15968A730027A81E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45E62D2115968A730027A81E /* serendipity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "serendipity-Prefix.pch"; sourceTree = "<group>"; };
+		45E62D2215968A730027A81E /* cpAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpAppDelegate.h; sourceTree = "<group>"; };
+		45E62D2315968A730027A81E /* cpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cpAppDelegate.m; sourceTree = "<group>"; };
+		45E62D2615968A730027A81E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		45E62D2915968A730027A81E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		45E62D2B15968A730027A81E /* cpMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpMasterViewController.h; sourceTree = "<group>"; };
+		45E62D2C15968A730027A81E /* cpMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cpMasterViewController.m; sourceTree = "<group>"; };
+		45E62D2E15968A730027A81E /* cpDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpDetailViewController.h; sourceTree = "<group>"; };
+		45E62D2F15968A730027A81E /* cpDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cpDetailViewController.m; sourceTree = "<group>"; };
+		45E62D3615968A730027A81E /* serendipityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = serendipityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E62D3715968A730027A81E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		45E62D3F15968A730027A81E /* serendipityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "serendipityTests-Info.plist"; sourceTree = "<group>"; };
+		45E62D4115968A730027A81E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45E62D4315968A730027A81E /* serendipityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = serendipityTests.h; sourceTree = "<group>"; };
+		45E62D4415968A730027A81E /* serendipityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = serendipityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E62D0C15968A730027A81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E62D1415968A730027A81E /* UIKit.framework in Frameworks */,
+				45E62D1615968A730027A81E /* Foundation.framework in Frameworks */,
+				45E62D1815968A730027A81E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E62D3215968A730027A81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E62D3815968A730027A81E /* SenTestingKit.framework in Frameworks */,
+				45E62D3915968A730027A81E /* UIKit.framework in Frameworks */,
+				45E62D3A15968A730027A81E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E62D0415968A730027A81E = {
+			isa = PBXGroup;
+			children = (
+				45E62D1915968A730027A81E /* serendipity */,
+				45E62D3D15968A730027A81E /* serendipityTests */,
+				45E62D1215968A730027A81E /* Frameworks */,
+				45E62D1015968A730027A81E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45E62D1015968A730027A81E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45E62D0F15968A730027A81E /* serendipity.app */,
+				45E62D3615968A730027A81E /* serendipityTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E62D1215968A730027A81E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E62D1315968A730027A81E /* UIKit.framework */,
+				45E62D1515968A730027A81E /* Foundation.framework */,
+				45E62D1715968A730027A81E /* CoreGraphics.framework */,
+				45E62D3715968A730027A81E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45E62D1915968A730027A81E /* serendipity */ = {
+			isa = PBXGroup;
+			children = (
+				45E62D2215968A730027A81E /* cpAppDelegate.h */,
+				45E62D2315968A730027A81E /* cpAppDelegate.m */,
+				45E62D2515968A730027A81E /* MainStoryboard_iPhone.storyboard */,
+				45E62D2815968A730027A81E /* MainStoryboard_iPad.storyboard */,
+				45E62D2B15968A730027A81E /* cpMasterViewController.h */,
+				45E62D2C15968A730027A81E /* cpMasterViewController.m */,
+				45E62D2E15968A730027A81E /* cpDetailViewController.h */,
+				45E62D2F15968A730027A81E /* cpDetailViewController.m */,
+				45E62D1A15968A730027A81E /* Supporting Files */,
+			);
+			path = serendipity;
+			sourceTree = "<group>";
+		};
+		45E62D1A15968A730027A81E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E62D1B15968A730027A81E /* serendipity-Info.plist */,
+				45E62D1C15968A730027A81E /* InfoPlist.strings */,
+				45E62D1F15968A730027A81E /* main.m */,
+				45E62D2115968A730027A81E /* serendipity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E62D3D15968A730027A81E /* serendipityTests */ = {
+			isa = PBXGroup;
+			children = (
+				45E62D4315968A730027A81E /* serendipityTests.h */,
+				45E62D4415968A730027A81E /* serendipityTests.m */,
+				45E62D3E15968A730027A81E /* Supporting Files */,
+			);
+			path = serendipityTests;
+			sourceTree = "<group>";
+		};
+		45E62D3E15968A730027A81E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E62D3F15968A730027A81E /* serendipityTests-Info.plist */,
+				45E62D4015968A730027A81E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E62D0E15968A730027A81E /* serendipity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E62D4815968A730027A81E /* Build configuration list for PBXNativeTarget "serendipity" */;
+			buildPhases = (
+				45E62D0B15968A730027A81E /* Sources */,
+				45E62D0C15968A730027A81E /* Frameworks */,
+				45E62D0D15968A730027A81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = serendipity;
+			productName = serendipity;
+			productReference = 45E62D0F15968A730027A81E /* serendipity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45E62D3515968A730027A81E /* serendipityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E62D4B15968A730027A81E /* Build configuration list for PBXNativeTarget "serendipityTests" */;
+			buildPhases = (
+				45E62D3115968A730027A81E /* Sources */,
+				45E62D3215968A730027A81E /* Frameworks */,
+				45E62D3315968A730027A81E /* Resources */,
+				45E62D3415968A730027A81E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45E62D3C15968A730027A81E /* PBXTargetDependency */,
+			);
+			name = serendipityTests;
+			productName = serendipityTests;
+			productReference = 45E62D3615968A730027A81E /* serendipityTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45E62D0615968A730027A81E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Square;
+			};
+			buildConfigurationList = 45E62D0915968A730027A81E /* Build configuration list for PBXProject "serendipity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45E62D0415968A730027A81E;
+			productRefGroup = 45E62D1015968A730027A81E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45E62D0E15968A730027A81E /* serendipity */,
+				45E62D3515968A730027A81E /* serendipityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E62D0D15968A730027A81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E62D1E15968A730027A81E /* InfoPlist.strings in Resources */,
+				45E62D2715968A730027A81E /* MainStoryboard_iPhone.storyboard in Resources */,
+				45E62D2A15968A730027A81E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E62D3315968A730027A81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E62D4215968A730027A81E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45E62D3415968A730027A81E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E62D0B15968A730027A81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E62D2015968A730027A81E /* main.m in Sources */,
+				45E62D2415968A730027A81E /* cpAppDelegate.m in Sources */,
+				45E62D2D15968A730027A81E /* cpMasterViewController.m in Sources */,
+				45E62D3015968A730027A81E /* cpDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E62D3115968A730027A81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E62D4515968A730027A81E /* serendipityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45E62D3C15968A730027A81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45E62D0E15968A730027A81E /* serendipity */;
+			targetProxy = 45E62D3B15968A730027A81E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45E62D1C15968A730027A81E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E62D1D15968A730027A81E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45E62D2515968A730027A81E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E62D2615968A730027A81E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		45E62D2815968A730027A81E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E62D2915968A730027A81E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		45E62D4015968A730027A81E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E62D4115968A730027A81E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45E62D4615968A730027A81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45E62D4715968A730027A81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45E62D4915968A730027A81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "serendipity/serendipity-Prefix.pch";
+				INFOPLIST_FILE = "serendipity/serendipity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45E62D4A15968A730027A81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "serendipity/serendipity-Prefix.pch";
+				INFOPLIST_FILE = "serendipity/serendipity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45E62D4C15968A730027A81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/serendipity.app/serendipity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "serendipity/serendipity-Prefix.pch";
+				INFOPLIST_FILE = "serendipityTests/serendipityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		45E62D4D15968A730027A81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/serendipity.app/serendipity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "serendipity/serendipity-Prefix.pch";
+				INFOPLIST_FILE = "serendipityTests/serendipityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45E62D0915968A730027A81E /* Build configuration list for PBXProject "serendipity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E62D4615968A730027A81E /* Debug */,
+				45E62D4715968A730027A81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E62D4815968A730027A81E /* Build configuration list for PBXNativeTarget "serendipity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E62D4915968A730027A81E /* Debug */,
+				45E62D4A15968A730027A81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45E62D4B15968A730027A81E /* Build configuration list for PBXNativeTarget "serendipityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E62D4C15968A730027A81E /* Debug */,
+				45E62D4D15968A730027A81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45E62D0615968A730027A81E /* Project object */;
+}
